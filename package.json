@@ -1,0 +1,24 @@
+{
+  "name": "shopping-list2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jszajner7/shopping-list2.git"
+  },
+  "author": "jeff szajner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jszajner7/shopping-list2/issues"
+  },
+  "homepage": "https://github.com/jszajner7/shopping-list2#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
