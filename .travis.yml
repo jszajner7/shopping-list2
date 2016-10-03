@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: xVWWK4TD2qz24kueALpNZjhIHrrwB0cTacVs+K23hoX8Dp1/OKwiWO5UZ062jXBpEEjPbSZFtbmKWm9P6c6nyn2wKRMXWaGSVPKgZVhnwK2SVpaPNNipNEevvhv7YaQJVA868AdFk2Clo9Dc5oOB767h0tKW5zqOvBXTt8BYRlTFwrmAjB7IbXx+7b85Eq8AHRZKA3Q1QdVPOXqFlC/UV3aYjAf77NkXRyYUOPOBOMLzCWQzCGAygEtU3O1TakyyMpSatjzWkdkFoqdmXg15zekU1rYHSYl1g9VEfOWvVa/5v9kamLYqPAbi16/yKQ7olX2NHTn4Pb0ZjowTn+7xuHRzocvKjR6rK/5cGjGcgzJELtkN97G2jIC41Z1pN1+Q70bIvpVxERfG5DpVQ8/WeWAYM3G1KZSgd7yeEOJj4OIHKQZ+T+pivqMwtIIkMXtUYrld/uwdvrNLKZLsNa+Vh5yTZI1mk/YZvrq4jGgmkd0XkVxQQRA2zZozw/MGg25RRPiQyee7dwDxgffa93tLfkgd+BxyqzLPET8aNKgKpXOW7MSGh2yzDLZdflpd6Z3TyTHJBrIS0jDXB8cMXk5YyDoUx0wd/YxMfWmGgFfPw0+Z7Ps6CDYaMWtFB8HnWqHUOK4q+WAngMHWcsLqOp++/WMbuI6/PJ+QU608r2ooBfI=
+  app: sleepy-river-58175
+  on:
+    repo: jszajner7/shopping-list2
